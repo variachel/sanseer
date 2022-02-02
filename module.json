@@ -1,0 +1,64 @@
+{
+    "name": "sanseer",
+    "title": "Sanseer",
+    "description": "Collected elements of the Chroniclers' Awakening",
+    "version": "0.1.5",
+    "author": "Variachel",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "sanseer-creatures",
+            "label": "Sanseer Creatures",
+            "path": "./packs/sanseer-creatures.db",
+            "entity": "Actor",
+            "type": "Actor"
+        },
+        {
+            "name": "sanseer-items",
+            "label": "Sanseer Items",
+            "path": "./packs/sanseer-items.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "sanseer-scenes",
+            "label": "Sanseer Scenes",
+            "path": "./packs/sanseer-scenes.db",
+            "entity": "Scene",
+            "type": "Scene"
+        },
+        {
+            "name": "sanseer-journals",
+            "label": "Sanseer Journals",
+            "path": "./packs/sanseer-journals.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "sanseer-macros",
+            "label": "Sanseer Macros",
+            "path": "./packs/sanseer-macros.db",
+            "entity": "Macro",
+            "type": "Macro"
+        },
+        {
+            "name": "sanseer-roll-tables",
+            "label": "Sanseer Roll Tables",
+            "path": "./packs/sanseer-roll-tables.db",
+            "entity": "RollTable",
+            "type": "RollTable"
+        },
+        {
+            "name": "sanseer-playlists",
+            "label": "Sanseer Playlists",
+            "path": "./packs/sanseer-playlists.db",
+            "entity": "Playlist",
+            "type": "Playlist"
+        }
+    ],
+    "url": "https://github.com/MorningFog/sanseer",
+    "issues": "https://github.com/MorningFog/sanseer/issues",
+    "manifest": "https://github.com/MorningFog/sanseer/releases/latest/download/module.json",
+    "download": "DownloadURLHere"
+  }
