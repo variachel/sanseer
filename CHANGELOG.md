@@ -1,3 +1,8 @@
+## Version 0.2.0
+
+Updated the layouts of the journals
+Added scenes
+
 ## Version 0.1.18
 
 Added more scenes
