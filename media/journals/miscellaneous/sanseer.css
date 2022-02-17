@@ -1,0 +1,141 @@
+/* Custom CSS */
+
+.journal-background {
+    width: 100% !important;
+    min-height: 100vh;
+    overflow: hidden auto;
+    margin: 0;
+    background-image: url('modules/sanseer/media/journals/miscellaneous/background.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.journal-header {
+    color: #d9d7c8;
+    padding: 3px 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #000;
+    box-shadow: 0 0 4px #666 inset;
+}
+
+.journal-content {
+    color: #d9d7c8;
+    padding: 3px 5px;
+    line-height: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #555;
+    box-shadow: 0 0 2px #000;
+}
+
+.journal-image {
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 12px #808080;
+}
+
+.journal-image-circle {
+    border: 0;
+    filter: drop-shadow(0 0 12px #808080);
+}
+
+.journal-image-margin {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.journal-base {
+    font-family: Signika;
+    text-align: justify;
+    font-size: 14px;
+    margin: 0.5rem;
+
+}
+
+.header-h2 {
+    font-size: 1.5rem;
+    color: #f34d1f !important;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+}
+
+.shadow-highlight {
+    color: #f34d1f !important;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+}
+
+.journal-link {
+    color: #bf2e0a !important;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(217, 215, 200, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*ul li::before {
+    content: "\f6cf";
+    font-family: "Font Awesome 5 Free";
+    padding: 0 10px 0 0;
+    color: #f34d1f !important;
+}*/
+
+table {
+    font-family: Signika;
+    color: #d9d7c8 !important;
+    border-spacing: 5px;
+    background-color: transparent;
+    text-align: justify;
+}
+
+td {
+    padding: 8px;
+    vertical-align: top;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    width: 50%;
+}
+
+td img {
+    border: 0;
+    margin-left: -5px;
+}
+
+blockquote {
+    margin-left: 0.5rem
+}
+
+.highlight,
+.note {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    border: 1px solid #191813 !important;
+    border-radius: 5px;
+    color: #e4e2d1 !important;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.highlight::before,
+.note::before {
+    font-family: Signika;
+     !important font-weight: 900;
+    margin-right: 0.5em;
+}
+
+.highlight.information,
+.note.information {
+    background: rgba(47, 80, 132, 0.5) !important;
+    border: 1px solid #5c87b9 !important;
+}
+
+.highlight.warning,
+.note.warning {
+    background: rgba(214, 150, 0, 0.5) !important;
+    border: 1px solid #d69e07 !important;
+}
+
+.highlight.error,
+.note.error {
+    background: rgba(105, 0, 8, 0.5) !important;
+    border: 1px solid #b85a5d !important;
+}

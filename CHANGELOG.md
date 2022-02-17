@@ -1,3 +1,9 @@
+## Version 0.3.0
+
+Updated journals to use custom css
+Updated scenes
+Updated test actors
+
 ## Version 0.2.5
 
 Updated scenes and test actors
